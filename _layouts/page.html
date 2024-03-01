@@ -4,9 +4,30 @@ layout: default
 <div class="container">
 	<div class="page-title-box">
 		<div class="row">
-			<div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
-				<h1 class="page-title">{{ page.title | escape }}</h1>
-			</div>
+			<!-- <div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0"> -->
+			{% if page.logo %}
+			<img class="page-logo" src="{{ site.baseurl }}/images/{{ page.logo }}">
+			{% else %} {% endif %}
+			<h1 class="page-title">{{ page.title | escape }}</h1>
+			<!-- </div> -->
+		</div>
+		<div class="page-sub-title">{{ page.subtitle | escape }}</div>
+
+		<div class="page-contact">
+			<ul class="contact__list list-reset">
+				{% if page.downloadlink %}
+				<li><a href="{{ page.downloadlink }}"><img class="page-download"
+							src="{{ site.baseurl }}/images/AppStoreDownload.jpg"></li>
+				{% else %} {% endif %}
+
+				{% if page.twitter %}
+				<li><a href="{{ page.twitter }}"><i class="ion ion-logo-twitter"></i></a></li>
+				{% else %} {% endif %}
+
+				{% if page.email %}
+				<li><a href="mailto:{{ page.email }}"><i class="ion ion-ios-mail"></i></a></li>
+				{% else %} {% endif %}
+			</ul>
 		</div>
 	</div>
 

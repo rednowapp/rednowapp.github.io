@@ -3,18 +3,59 @@
   border-top: 1px solid $light-gray;
 
   .page-title {
-    font-size: 57px;
-    line-height: 70px;
-    margin: 0;
+    font-size: 40px;
+    line-height: 80px;
+    margin: 0px 0px 0px 20px;
+  }
+  
+  .page-logo {
+    margin: 0px 0px 0px 10px;
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
+  .page-sub-title {
+    font-size: 16px;
+    max-width: 600px;
+    line-height: 28px;
+    margin: 2% 0;
+  }
+
+  .page-download {
+    margin: 0px 0px 2px 0px;
+    max-width: 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .page-contact {
+    .contact__list {
+      li {
+        margin-left: 0px;
+        margin-right: 15px;
+        display: inline-block;
+  
+        a {
+          font-size: 25px;
+          color: $gray;
+          &:hover {
+            color: $dark;
+          }
+        }
+      }
+    }
+  }
   @media only screen and (max-width: $mobile) {
     padding: 40px 0;
 
-    .page-title {
-      font-size: 47px;
-      line-height: 53px;
-    }
+    // .page-title {
+    //   font-size: 47px;
+    //   line-height: 53px;
+    // }
   }
 }
 
@@ -29,8 +70,9 @@
       content: "";
       display: table;
       width: 100%;
-      min-height: 300px;
-      padding-top: 50%;
+      aspect-ratio: 2816 / 2048;
+      // min-height: 850px;
+      // padding-top: 50%;
     }
   }
 }

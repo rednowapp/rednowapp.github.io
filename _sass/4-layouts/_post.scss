@@ -63,7 +63,7 @@
 }
 
 .post-image {
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-color: $light-gray;
@@ -71,8 +71,9 @@
     content: "";
     display: table;
     width: 100%;
-    min-height: 300px;
-    padding-top: 50%;
+    aspect-ratio: 2732 / 2048;
+    // min-height: 300px;
+    // padding-top: 50%;
   }
 }
 
