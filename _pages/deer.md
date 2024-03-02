@@ -9,8 +9,6 @@ downloadlink: https://apps.apple.com/app/id1509262785
 email: help@rednow.cc
 ---
 
-Deer is a note/to-do application that structured fragmented information. Convert whimsical ideas, class notes, and to-do items into mind maps and checklists.
-
 __Big things turn small, small things tick off__
 First set a big goal, then break it into several small goals, and complete them one by one.  'Dear' supports splitting 1000 levels of subtasks. You can easily split the task and focus on completing the split subtasks.
 
