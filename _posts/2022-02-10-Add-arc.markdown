@@ -1,0 +1,115 @@
+---
+layout: post
+title:  What 'AddArcToPoint' Does
+date:   2021-05-20 00:20:30 +0300
+image:  add-arc.jpg
+tags:   转载
+---
+
+CGPathAddArcToPoint and CGContextAddArcToPoint can be used easily to draw shapes with rounded corners. These two methods do exactly the same thing except that CGContextAddArcToPoint works on the path currently in a CGContext rather than a CGMutablePath.
+
+Here is the function call for __AddArcToPoint__:
+
+{% highlight swift %}
+void CGContextAddArcToPoint (
+   CGContextRef c,
+   CGFloat x1,
+   CGFloat y1,
+   CGFloat x2,
+   CGFloat y2,
+   CGFloat radius
+);
+{% endhighlight %}
+
+The function works like this:
+
+![]({{site.baseurl}}/images/addArc01.png)
+
+The red line is the path that the function will draw. P1 is the the point that the path is at before the function is called, __x1, y1, x2, y2__ correspond to the values passed in by the function, and __r__ is the __radius__ value. The function doesn’t line to the second point given, it stops at the end of the arc.
+
+The way this is constructed is to imagine that you’ve drawn from the current point to the point at __x1, y1__ and then to __x2, y2__:
+
+![]({{site.baseurl}}/images/addArc02.png)
+
+Then you draw a circle with the given radius, and move it so that it just touches each of the lines:
+
+![]({{site.baseurl}}/images/addArc03.png)
+
+__I1__ and __I2__ are the points where the circle touches the lines.
+
+__addArcToPoint__ will make a path from the current point __P0__ to __I1__, it will then follow the arc of the circle around to __I2__ and then stop (It won’t make a path to the end point). This is shown in the initial diagram.
+
+So you could implement a view to draw rounded triangles like this:
+
+{% highlight swift %}
+ //
+ //  JTARoundedTriangleView.m
+ //  RoundedTriangle
+ //
+ //  Created by James Snook on 24/09/2013.
+ //  Copyright (c) 2013 James Snook. All rights reserved.
+ //
+ 
+#import "JTARoundedTriangleView.h"
+ 
+@implementation JTARoundedTriangleView
+ 
+/* These are CGPoints. */
+@synthesize point1;
+@synthesize point2;
+@synthesize point3;
+ 
+/* This is a CGFloat. */
+@synthesize radius;
+ 
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+    }
+    return self;
+}
+ 
+ 
+- (void)drawRect:(CGRect)rect
+{
+  CGContextRef ctx = UIGraphicsGetCurrentContext ();
+ 
+  // Find a point inbetween point1 and point2 to start from.
+  // We can't start our path at a point as we want to round 
+  // the points.
+  CGPoint midPoint = {
+    0.5 * (point1.x + point2.x),
+    0.5 * (point1.y + point2.y)
+  };
+ 
+  CGContextMoveToPoint (ctx, midPoint.x, midPoint.y);
+  // Arc to point doesn't actually go to the end point,
+  // so we can use the next point on the triangle as
+  // the end point.
+  CGContextAddArcToPoint (ctx, point2.x, point2.y,
+                          point3.x, point3.y, radius);
+  CGContextAddArcToPoint (ctx, point3.x, point3.y,
+                          point1.x, point1.y, radius);
+  CGContextAddArcToPoint (ctx, point1.x, point1.y,
+                          point2.x, point2.y, radius);
+ 
+  // As arcToPoint stops at the end of the arc, rather than
+  // going to the point, we need to move back to the starting
+  // point.
+  CGContextAddLineToPoint (ctx, midPoint.x, midPoint.y);
+  CGContextStrokePath (ctx);
+}
+ 
+ 
+@end
+{% endhighlight %}
+
+Here is a triangle drawn by the view above:
+
+![]({{site.baseurl}}/images/addArc04.png)
+
+[原文链接][download] 
+
+[download]: https://www.twistedape.me.uk/2013/09/23/what-arctopointdoes/

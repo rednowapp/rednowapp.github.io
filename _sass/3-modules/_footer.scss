@@ -10,12 +10,23 @@
   }
 
   .copyright {
+    font-size: 13px;
     a {
       color: $dark;
       &:hover {
         color: $brand-color;
       }
     }
+  }
+
+  .footer-image {
+    margin: 0px 0px 3px 0px;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
   }
 
   @media only screen and (max-width: $mobile) {

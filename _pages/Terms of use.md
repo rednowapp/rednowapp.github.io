@@ -2,7 +2,6 @@
 layout: page
 title: Terms of use
 permalink: /terms-of-use/
-twitter: https://twitter.com/MindSpace_App
 email: help@rednow.cc
 ---
 

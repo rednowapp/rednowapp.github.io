@@ -1,28 +1,27 @@
 ---
 layout: page
 title: MindSpace
-subtitle: With MindSpace, you can quickly create concise mind maps. Edit them on Mac, iPad, and iPhone, and export images or PDFs at any time to share in study and work.
+subtitle: 使用MindSpace，您可以快速创建简洁的思维导图。 在Mac、iPad和iPhone上编辑它们，并随时导出图像或PDF以在学习和工作中共享。
 permalink: /mindspace/
 image: mindspacecover.jpg
 logo: MindSpaceNormal.png
 downloadlink: https://apps.apple.com/app/id1585502524
-twitter: https://twitter.com/MindSpace_App
 email: help@rednow.cc
 ---
 
 ***
 
-Unlike other mind maps, you can connect nodes inside MindSpace, and you can also annotate nodes inside this way.
+与其他思维导图不同的是，你可以连接MindSpace内部的节点，也可以通过这种方式对内部的节点进行注释。
 ![]({{site.baseurl}}/images/screenshots4.jpg)
 
 ***
 
-You can freely reorganize your ideas to fit the knowledge palace of your brain. In MindSpace, you can freely drag nodes and undo the operation at any time.
+你可以自由地重组你的想法，以适应你大脑的知识宫殿。 在MindSpace中，您可以自由拖动节点并随时撤消操作。
 ![]({{site.baseurl}}/images/screenshots1.jpg)
 
 ***
 
-Insert pictures or links (it can also be local links), and then organize the information in the most reasonable way. Your knowledge becomes visual, so that everything can become easier the next time you review.
+插入图片或链接（也可以是本地链接），然后以最合理的方式组织信息。 你的知识变得直观，这样下次复习时一切都会变得更容易。
 ![]({{site.baseurl}}/images/screenshots5.jpg)
 
 ***

@@ -10,16 +10,12 @@ description:
 author:
   name: rednow
   image: duck.jpg
-  say-hello: Hello, this is rednow.
-  bio: We are making some beautiful and efficient Apps.
+  say-hello: 你好，这里是rednow。
+  bio: 我正在构建一些简洁又高效的App，在这里我会不定期地分享我的编程经验和成果。
 
 
 #-------------------------------
 # Contact links
-twitter: https://twitter.com/MindSpace_App/
-github: https://github.com/rednowapp
-instagram: https://instagram.com/ # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
 email: help@rednow.cc
 
 

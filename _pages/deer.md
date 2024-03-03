@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Deer
-subtitle: Deer is a note/to-do application that structured fragmented information. Convert whimsical ideas, class notes, and to-do items into mind maps and checklists.
+subtitle: Deer 是一款将碎片信息结构化的笔记/待办事项应用程序。 将异想天开的想法、课堂笔记和待办事项转化为思维导图和清单。
 permalink: /deer/
 image: deercover.jpg
 logo: DeerNormal.png
@@ -9,11 +9,11 @@ downloadlink: https://apps.apple.com/app/id1509262785
 email: help@rednow.cc
 ---
 
-__Big things turn small, small things tick off__
-First set a big goal, then break it into several small goals, and complete them one by one.  'Dear' supports splitting 1000 levels of subtasks. You can easily split the task and focus on completing the split subtasks.
+__大事化小，小事划勾__
+先定一个大目标，然后把它拆成若干小目标，一个个完成它们。鹿角记支持拆分1000层子任务，你可以轻松地拆分任务，并专注在完成拆分下来的子任务中。
 
-__A list, but not simple__
-Don't look at the list with only one column, click on each item and you will find that your thoughts will become very clear. Because the details page shows all the sub-tasks you split before, including all the parent tasks. You can modify their content and structure at will, as long as they can fit your mind.
+__一列清单，却不简单__
+别看清单只有一列，点开每一项你会发现你的思绪会变得很清晰。因为详情页展示了所有你之前拆分的子任务，还包括所有的父任务。你可以随意修改他们的内容和结构，只要它们能符合你心中的思绪。
 
-__Simple and complex coexist__
-You can completely treat a list as a list, record the information and view the information according to your habits; you can also use it as your information collector, split and summarize the information, sort it out and store it in it clearly, when you want If you want to focus only on the details, you can use the powerful filtering and sorting functions of "Task Flow" to put it at the top of the list (it will also appear at the top of the widget).
+__简单和复杂共存__
+你完全可以把鹿角记就当做任务清单，按照你的习惯记录信息，查看信息；你也可以把他当做你的信息收集器，将信息拆分和归纳，梳理清晰地存放在其中，当你想要只关注其中的细节时，你可以使用「任务流」强大的筛选和排序功能把它放到列表的顶部（它也会出现在小组件的顶部）。

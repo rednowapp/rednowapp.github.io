@@ -1,30 +1,30 @@
 ---
 layout: post
-title:  Create concise mind maps quickly
+title:  快速创建简洁的思维导图
 date:   2022-09-19 00:01:35 +0300
 image:  mindspacecover.jpg
 tags:   App
 ---
 
-We have created a brand new mind mapping software that can help you quickly create concise mind maps.
-Edit them on Mac, iPad and iPhone, export pictures or PDF at any time to share in study and work.
+MindSpace是一款全新的思维导图软件，可以帮助你快速创建简洁的思维导图。
+在Mac、iPad和iPhone上编辑它们，随时导出图片或PDF以在学习和工作中分享。
 
-* Organize ideas
-Quickly adjust the structure of your information, distinguish them with different colors and different formats, insert stickers to make the information more vivid, and the built-in exquisite themes can be styled with one click. In short, MindSpace strives to help you build a castle of knowledge in your brain.
+* 整理想法：
+快速调整您的信息结构，用不同颜色和不同格式区分，插入贴纸让信息更加生动，内置精美主题一键设计风格。 简而言之，MindSpace致力于帮助你在大脑中建造一座知识城堡。
 
-* Capture inspiration
-Grasp the fleeting inspiration, quickly add it to the mind map, and become an important part of your knowledge castle. Each inspiration instantly becomes brick by brick and is permanently stored in your brain.
+* 捕捉灵感：
+抓住稍纵即逝的灵感，快速将其添加到思维导图中，成为你知识城堡的重要组成部分。 每一个灵感都会瞬间变成一砖一瓦，并永久存储在你的大脑中。
 
-* Exquisite appearance
-The selected theme style allows you to pay more attention to the information itself without worrying about the appearance. The minimalist style makes every position not redundant while reducing interference, making the content itself the core.
+* 精美外观：
+所选的主题风格可以让您更加关注信息本身，而不必担心外观。 极简风格让每个位置都不多余，同时减少干扰，让内容本身成为核心。
 
-* Data Security
-MindSpace uses the simplest way to build, namely the document editor, your data belongs to you only.
+* 数据安全：
+MindSpace使用最简单的方式构建，即文档编辑器，你的数据只属于你。
 
-* Free sharing
-Some of your whimsical ideas or creative inspiration can improve team efficiency, so make an intuitive mind map and share it with your team.
+* 免费分享：
+你的一些异想天开的想法或创意灵感可以提高团队效率，因此制作直观的思维导图并与你的团队分享。
 
 
-[Download MindSpace][download] 
+[进一步了解MindSpace][download] 
 
-[download]: https://apps.apple.com/app/id1585502524
+[download]: {{ site.baseurl }}/mindspace
