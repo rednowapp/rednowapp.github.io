@@ -1,5 +1,6 @@
 ---
 layout: page
+author: REDNOW
 title: MindSpace
 subtitle: 使用MindSpace，您可以快速创建简洁的思维导图。 在Mac、iPad和iPhone上编辑它们，并随时导出图像或PDF以在学习和工作中共享。
 permalink: /mindspace/

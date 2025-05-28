@@ -8,8 +8,10 @@
   <!-- {% if site.data.settings.google-analytics %}
   {% include google-analytics.html %}
   {% endif %} -->
-
-  {% include header.html %}
+		{% if page.hideheader %}
+		{% else %} 
+       {% include header.html %}
+    {% endif %}
 
   <!-- begin content -->
   <main class="content" aria-label="Content">

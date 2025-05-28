@@ -1,5 +1,6 @@
 ---
 layout: page
+author: REDNOW
 title: Terms of use
 permalink: /terms-of-use/
 email: help@rednow.cc

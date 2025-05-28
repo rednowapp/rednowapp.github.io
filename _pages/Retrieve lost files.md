@@ -1,5 +1,6 @@
 ---
 layout: page
+author: REDNOW
 title: Retrieve lost files
 subtitle: In iOS 15 and below systems, when creating a MindSpace file and changing its name, the file may suddenly disappear. Don’t worry, the system just hides this file, please follow the picture to restore it.
 permalink: /retrieve-lost-files/

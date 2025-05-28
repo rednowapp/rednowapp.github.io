@@ -1,5 +1,6 @@
 ---
 layout: page
+author: REDNOW
 title: Privacy Policy
 permalink: /privacy-policy/
 email: help@rednow.cc

@@ -1,5 +1,6 @@
 ---
 layout: page
+author: REDNOW
 title: Deer
 subtitle: Deer 是一款将碎片信息结构化的笔记/待办事项应用程序。 将异想天开的想法、课堂笔记和待办事项转化为思维导图和清单。
 permalink: /deer/
