@@ -1,9 +1,11 @@
 ---
 layout: page
+author: REDNOW
 title: Privacy Policy
 permalink: /privacy-policy/
 twitter: https://twitter.com/MindSpace_App
 email: help@rednow.cc
+hideheader: hidden
 ---
 
 ##### Information storage 

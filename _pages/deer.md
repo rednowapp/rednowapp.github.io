@@ -1,5 +1,6 @@
 ---
 layout: page
+author: REDNOW
 title: Deer
 subtitle: Deer is a note/to-do application that structured fragmented information. Convert whimsical ideas, class notes, and to-do items into mind maps and checklists.
 permalink: /deer/

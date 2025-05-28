@@ -1,5 +1,6 @@
 ---
 layout: page
+author: REDNOW
 title: MindSpace
 subtitle: With MindSpace, you can quickly create concise mind maps. Edit them on Mac, iPad, and iPhone, and export images or PDFs at any time to share in study and work.
 permalink: /mindspace/
