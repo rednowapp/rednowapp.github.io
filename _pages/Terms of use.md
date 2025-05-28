@@ -5,7 +5,6 @@ title: Terms of use
 permalink: /terms-of-use/
 twitter: https://twitter.com/MindSpace_App
 email: help@rednow.cc
-hideheader: hidden
 ---
 
 Before using the ‘Subscription’ service provided by the APP, please read the following terms carefully: 

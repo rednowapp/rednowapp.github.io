@@ -6,7 +6,6 @@ subtitle: In iOS 15 and below systems, when creating a MindSpace file and changi
 permalink: /retrieve-lost-files/
 twitter: https://twitter.com/MindSpace_App
 email: help@rednow.cc
-hideheader: hidden
 ---
 
 1, Open the file app

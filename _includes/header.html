@@ -32,7 +32,7 @@
                 <a href="{{site.baseurl}}/" class="nav__link">Home</a>
               </li>
               {% for page in site.pages %}
-                {% unless page.name == 'tags.html' or page.name == '404.html' or page.hideheader %}
+                {% unless page.name == 'tags.html' or page.name == '404.html' or page.title == 'Terms of use' or page.title == 'Privacy Policy' or page.title == 'Retrieve lost files' or page.hideheader %}
               {% if page.title %}
               <li class="nav__item">
                 <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
